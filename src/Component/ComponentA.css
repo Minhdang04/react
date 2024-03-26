@@ -1,0 +1,21 @@
+.pic {
+    margin-left: 200px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(https://img1.ak.crunchyroll.com/i/spire3/11b38d26e15859569eaa2b57d608edc81656560061_main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1170px;
+    height: 400px;
+    backdrop-filter: blur(100px);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
